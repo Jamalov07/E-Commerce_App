@@ -1,0 +1,30 @@
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+#cart img {
+  object-fit: cover;
+}
+
+.card {
+  width: 21rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px 0px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-body a {
+  width: 50%;
+}
